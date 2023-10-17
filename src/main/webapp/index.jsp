@@ -1,5 +1,8 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Registrar empleado</h2>
+
+<h1 aling="center">Gestionar Empleado</h1>
+
 </body>
 </html>

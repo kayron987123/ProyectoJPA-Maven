@@ -31,7 +31,7 @@ public class TblDocumento implements Serializable {
 	private String rucdocumen;
 
 	//bi-directional many-to-one association to TblTipodocumento
-	@ManyToOne(optional=false,cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+	@ManyToOne
 	@JoinColumn(name="idtipodocum")
 	private TblTipodocumento tblTipodocumento;
 
